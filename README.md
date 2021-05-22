@@ -21,9 +21,8 @@ If you run the server as shown below, you can access the ip address and port of 
 You can connect to the server by executing the client code while the server is running. 
 At this time, the IP of the computer running the server and the designated port must be correctly set.  
 
-    connect_ip_port = 'tcp://127.0.0.1:9999'  
+    python imagezmq_client.py  
     
-If both the server and client code are run on the same computer, you can set the IP address designation value in the client code to the local address as shown below.  
+If both the server and client code are run on the same computer, you can set the IP address designation value in the client code to the local address as shown below. 
 
-    python imagezmq_client.py   
-    
+    connect_ip_port = 'tcp://127.0.0.1:9999'  
