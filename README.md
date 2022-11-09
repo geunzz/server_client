@@ -1,4 +1,4 @@
-# server_client
+# Imagezmq
 This code implements the function of sending and receiving images between the client and the server using the imagezmq library. 
 You can specify the number of ports to open on the server, and it is implemented to open two ports (9999, 9998) as an example in the current code. 
 If there is no response from the client for 3000ms(User can change it to their liking) timeout, 
