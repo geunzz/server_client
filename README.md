@@ -26,3 +26,8 @@ At this time, the IP of the computer running the server and the designated port 
 If both the server and client code are run on the same computer, you can set the IP address designation value in the client code to the local address as shown below. 
 
     connect_ip_port = 'tcp://127.0.0.1:9999'  
+
+# Oracle & Flask
+This code is the basic form code that connects Oracle database and Flask server. In that form, we also implemented a scheduler to periodically run code on the server. The scheduler is executed at regular time intervals or according to a set period, and can be operated according to the time zone set by the user. You can start the server by running the app.py code.
+
+    python app.py
