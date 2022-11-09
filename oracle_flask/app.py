@@ -9,7 +9,7 @@ from apscheduler.schedulers.background import BackgroundScheduler
 # flask
 app = Flask(__name__)
 # oracle database connection
-cx_Oracle.init_oracle_client(lib_dir=r'C:/projects/market_pred/instantclient_21_6')
+cx_Oracle.init_oracle_client(lib_dir=r'YOUR/PATH/instantclient_21_6')
 engine = sqlalchemy.create_engine('oracle+cx_oracle://USERNAME:PASSWORD@DATABASE_NAME')
 
 my_2darray = np.array([[1, 2, 3], [4, 5, 6]])
